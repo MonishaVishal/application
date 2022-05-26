@@ -1,0 +1,133 @@
+
+body{
+    width:1000px;
+    height: 2000px;
+    margin: auto;
+    font-family: caliber;
+}
+
+h1{
+    text-align: center;
+}
+ 
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+   color: white;
+    margin: 30px;  
+}
+
+.things{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.things>table{
+    width: 20px;
+    border: 1px solid black;
+    color: lightgray;
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+
+}
+
+.frame>.stay{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    font: size 30px;
+}
+
+.frame>.home{
+    
+    font-size: larger;
+}
+
+.parent-images{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+
+.fashion{
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.fashion>.child{
+    background-color: #23a3ca;
+    display: inline-block;
+    padding:1px;
+}
+
+.child>img{
+    background-color: #dbf3fa;
+}
+
+.cate{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cate>.child{
+    background-color: #16bdf0;
+    padding: 1px;
+    
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131a22;
+    color: antiquewhite;
+    }
+
+p{
+    margin: 0px, 0px, 0px, 0px;
+}
+
+
+
+
+h4{
+    margin: 0;
+    display: inline-block;
+    font-size: 30pt;
+}
+ li{
+     margin-bottom: 10px;
+     font-size: 10px;
+     
+ }
+ /* tab*/
+@media screen and (min-width:481px) and (max-width:769px)
+{
+   .things{
+       display: none;
+   }
+   .frame>.mask{
+       display: none;
+   }
+       
+@media screen and (min-width:320px) and (max-width:480px)
+{
+    .navbar{
+        display: none;
+        flex-wrap: wrap;
+    }
+    
+
+}
+
+
+
+}
